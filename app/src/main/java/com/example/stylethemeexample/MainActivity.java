@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, OtherActivity.class);
         startActivity(intent);
     }
+
+    public void clickMeBetter(View v) {
+        Intent intent = new Intent(MainActivity.this, BetterActivity.class);
+        startActivity(intent);
+    }
 }

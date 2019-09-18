@@ -91,6 +91,13 @@
             android:text="Click here"
             android:layout_marginBottom="100dp"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="250dp"
+            android:onClick="clickMeBetter"
+            android:text="Click here(better)" />
+
 
     </LinearLayout>
     
